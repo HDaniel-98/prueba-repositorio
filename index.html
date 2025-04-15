@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mascotel</title>
+    <!-- LINK CSS -->
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/navBar.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/css/ventanaCita.css">
+</head>
+<header id="menugrande" class="menu-visible">
+    <nav>
+        <ul class="ul-nav">
+            <li class="li-nav"><a class="a-nav" href="#">Inicio</a></li>
+            <li class="li-nav"><a class="a-nav" href="proyecto Mascotel Marco">Guardería</a></li>
+            <li class="li-nav"><a class="a-nav" href="Mascotel_Alimentación">Alimentación</a></li>
+            <li class="li-nav"><a class="a-nav" href="Dani_ejercicio">Ejercicio</a></li>
+            <li class="li-nav"><a class="a-nav" href="peluqueria">Peluquería</a></li>
+            <li class="li-nav"><a class="a-nav" href="proyecto mascotel marco formulario">Contacto</a></li>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<body id="body">
+    <section class="img-fondo">
+        <h1 class="title">Peluquería Canina</h1>
+        <p class="slogan">Cuidado y estilo para tu mejor amigo</p>
+        <button id="btn-reserva" class="btn-reserva"><a href="#">Reserva tu cita</a></button>
+
+
+        <!-- LETTER -->
+
+        <div class="fondo-reserva">
+
+            <div id="container-reserva">
+                <h2>Reserva tu cita 🐶</h2>
+                <label for="nombre">Nombre del dueño:</label>
+                <input type="text" id="nombre" placeholder="Tu nombre">
+
+                <label for="mascota">Nombre de tu mascota:</label>
+                <input type="text" id="mascota" placeholder="Nombre de la mascota">
+
+                <label for="fecha">Fecha de la cita:</label>
+                <input type="date" id="fecha">
+
+                <label for="servicio">Selecciona un servicio:</label>
+                <select id="servicio">
+                    <option value="baño">Baño y secado</option>
+                    <option value="corte">Corte de pelo</option>
+                    <option value="uñas">Corte de uñas</option>
+                </select>
+
+                <button id="btn-input">Reservar Cita</button>
+            </div>
+        </div>
+    </section>
+
+
+    <!-------------- MAIN -------------->
+    <main>
+        <section class="section-1">
+            <div class="items item-1">
+                <img src="src/assets/peluqueria-canina.png" alt="icono peluqueria">
+                <div class="contenido">
+                    <h2>Servicio completo</h2>
+                    <p>Ofrecemos un servicio integral para cuidar la higiene y belleza de tu mascota:</p>
+                    <ul class="ul-list-contenido">
+                        <li><span>Limado suave:</span> Con productos según su tipo de piel.</li>
+                        <li><span>Corte de pelo:</span> Adaptado a su raza o tus preferencias.
+                        </li>
+                        <li><span>Corte de uñas y limpieza de oídos:</span> Para su salud y comodidad.
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+            <div class="items item-2">
+                <img src="src/assets/baño-icono.png" alt="ducha canina">
+                <div class="contenido">
+                    <h2>Baño</h2>
+                    <p>Dale a tu mascota un baño profesional que la hará lucir y sentirse increíble:
+                    </p>
+                    <ul class="ul-list-contenido">
+                        <li><span>Baño completo:</span> Con productos suaves y adaptados a su piel.</li>
+                        <li><span>Cepillado:</span> Para eliminar nudos y pelo muerto.</li>
+                        <li><span>Limpieza básica:</span> Oídos y zona íntima.</li>
+                    </ul>
+                    <p>Un trato cariñoso y seguro para tu mejor amigo. ¡Agenda tu cita hoy!</p>
+                </div>
+            </div>
+            <div class="items item-3">
+                <img src="src/assets/pata-icono3.png" alt="corte y limado">
+                <div class="contenido">
+                    <h2>Corte y Limado de uñas</h2>
+                    <p>Mantén las patas de tu mascota saludables y cómodas con nuestro servicio:
+                    </p>
+                    <ul class="ul-list-contenido">
+                        <li><span>Corte preciso:</span> Para evitar molestias y prevenir lesiones.</li>
+                        <li><span>Limado suave:</span> Para un acabado perfecto y sin bordes afilados.</li>
+                    </ul>
+                    <p>Cuidamos de tu mascota con amor y profesionalismo. ¡Haz tu cita hoy!</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+</body>
+<script src="/js/reservaCitas.js"></script>
+
+</html>
