@@ -19,7 +19,7 @@
 .img-fondo {
     height: 600px;
     width: 100%;
-    background-image: url('/src/assets/peluqueria2.jpg');
+    background-image: url('peluqueria2.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
